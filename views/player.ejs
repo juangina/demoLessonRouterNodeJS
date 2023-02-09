@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web Development - Routing</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div class="nav_container">
+        <button class="nav_button">
+            <a href="/">Home</i></a>
+        </button>
+        <button class="nav_button">
+            <a href="/player">Player</i></a>
+        </button>
+    </div>
+    <div class="container_be">
+
+        <button id="prev_be">
+            <a href="/player/prev_be"><i class="fas fa-fast-backward"></i></a>
+        </button>
+
+        <button id="play_be">
+            <a href="/player/play_be"><i class="fas fa-play"></i></a>
+        </button>
+
+        <button id="stop_be">
+            <a href="/player/stop_be"><i class="fas fa-stop"></i></a>
+        </button>
+
+        <button id="next_be">
+            <a href="/player/next_be"><i class="fas fa-fast-forward"></i></a>
+        </button>
+
+      <div id="message_be"><%= player_message%></div>
+    </div>
+    <script src='/javascripts/scripts.js'></script>
+  </body>
+</html>

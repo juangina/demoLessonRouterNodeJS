@@ -1,0 +1,24 @@
+{
+  "name": "router_lesson",
+  "version": "1.0.0",
+  "description": "This project is used to introduce the student to express routers.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "router_lesson"
+  },
+  "author": "Juan Eric Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
+  }
+}
